@@ -1,0 +1,8 @@
+1. insert nasabah
+SELECT no_nasabah AS 'ID', tanggal_daftar AS 'Tanggal Daftar', nama_nasabah AS 'Nama Nasabah', jenis_id AS 'Jenis ID', no_id AS 'No ID', alamat AS 'Alamat',
+tempat_lahir AS 'Tempat Lahir', tanggal_lahir AS 'Tanggal Lahir', jenis_kelamin AS 'Jenis Kelamin', agama AS 'Agama', pekerjaan AS 'Pekerjaan', no_telp AS 'No Telepon', no_hp AS 'No Hp'
+FROM nasabah
+
+SELECT NOW(),CURDATE(),CURTIME()
+
+

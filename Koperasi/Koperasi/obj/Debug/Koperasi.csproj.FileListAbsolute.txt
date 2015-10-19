@@ -1,0 +1,134 @@
+D:\Data\New folder\Koperasi\Koperasi\bin\Debug\Koperasi.exe.config
+D:\Data\New folder\Koperasi\Koperasi\bin\Debug\Koperasi.exe
+D:\Data\New folder\Koperasi\Koperasi\bin\Debug\Koperasi.pdb
+D:\Data\New folder\Koperasi\Koperasi\obj\Debug\Koperasi.csprojResolveAssemblyReference.cache
+D:\Data\New folder\Koperasi\Koperasi\obj\Debug\Koperasi.Form1.resources
+D:\Data\New folder\Koperasi\Koperasi\obj\Debug\Koperasi.Properties.Resources.resources
+D:\Data\New folder\Koperasi\Koperasi\obj\Debug\Koperasi.csproj.GenerateResource.Cache
+D:\Data\New folder\Koperasi\Koperasi\obj\Debug\Koperasi.exe
+D:\Data\New folder\Koperasi\Koperasi\obj\Debug\Koperasi.pdb
+D:\Data\New folder\Koperasi\Koperasi\obj\Debug\Koperasi.Form3.resources
+D:\Data\New folder\Koperasi\Koperasi\obj\Debug\Koperasi.Home.resources
+D:\Data\New folder\Koperasi\Koperasi\obj\Debug\Koperasi.SimpananAnggota.resources
+D:\Data\New folder\Koperasi\Koperasi\obj\Debug\Koperasi.Penarikan.resources
+D:\Data\New folder\Koperasi\Koperasi\obj\Debug\Koperasi.Setoran.resources
+D:\Data\New folder\Koperasi\Koperasi\obj\Debug\Koperasi.Login.resources
+F:\BTM\Koperasi\Koperasi\bin\Debug\Koperasi.exe.config
+F:\BTM\Koperasi\Koperasi\obj\Debug\Koperasi.exe
+F:\BTM\Koperasi\Koperasi\obj\Debug\Koperasi.pdb
+D:\Data\New folder\Koperasi\Koperasi\obj\Debug\Koperasi.SettingKoneksi.resources
+D:\Data\New folder\Koperasi\Koperasi\obj\Debug\Koperasi.Marketing.resources
+D:\Tunjung\Koperasi\Koperasi\bin\Debug\Koperasi.exe.config
+D:\Tunjung\Koperasi\Koperasi\obj\Debug\Koperasi.exe
+D:\Tunjung\Koperasi\Koperasi\obj\Debug\Koperasi.pdb
+D:\Tunjung\Koperasi\Koperasi\bin\Debug\Koperasi.exe
+D:\Tunjung\Koperasi\Koperasi\bin\Debug\Koperasi.pdb
+D:\Tunjung\Koperasi\Koperasi\obj\Debug\Koperasi.csprojResolveAssemblyReference.cache
+D:\Tunjung\Koperasi\Koperasi\obj\Debug\Koperasi.DataNasabah.resources
+D:\Tunjung\Koperasi\Koperasi\obj\Debug\Koperasi.Form1.resources
+D:\Tunjung\Koperasi\Koperasi\obj\Debug\Koperasi.Home.resources
+D:\Tunjung\Koperasi\Koperasi\obj\Debug\Koperasi.Form3.resources
+D:\Tunjung\Koperasi\Koperasi\obj\Debug\Koperasi.Login.resources
+D:\Tunjung\Koperasi\Koperasi\obj\Debug\Koperasi.Marketing.resources
+D:\Tunjung\Koperasi\Koperasi\obj\Debug\Koperasi.Penarikan.resources
+D:\Tunjung\Koperasi\Koperasi\obj\Debug\Koperasi.Profil.resources
+D:\Tunjung\Koperasi\Koperasi\obj\Debug\Koperasi.Properties.Resources.resources
+D:\Tunjung\Koperasi\Koperasi\obj\Debug\Koperasi.Setoran.resources
+D:\Tunjung\Koperasi\Koperasi\obj\Debug\Koperasi.SettingKoneksi.resources
+D:\Tunjung\Koperasi\Koperasi\obj\Debug\Koperasi.SimpananAnggota.resources
+D:\Tunjung\Koperasi\Koperasi\obj\Debug\Koperasi.csproj.GenerateResource.Cache
+D:\Tunjung\Koperasi\Koperasi\obj\Debug\Koperasi.TambahNasabah.resources
+D:\Tunjung\Koperasi\Koperasi\obj\Debug\Koperasi.EditNasabah.resources
+D:\Tunjung\Koperasi\Koperasi\obj\Debug\Koperasi.DataSimpanan.resources
+D:\Tunjung\Koperasi\Koperasi\obj\Debug\Koperasi.TambahDataSimpanan.resources
+D:\Tunjung\Koperasi\Koperasi\obj\Debug\Koperasi.DataPinjaman.resources
+D:\Tunjung\Koperasi\Koperasi\obj\Debug\Koperasi.PengajuanPinjaman.resources
+D:\Tunjung\Koperasi\Koperasi\obj\Debug\Koperasi.SetoranSimpanan.resources
+D:\Tunjung\Koperasi\Koperasi\obj\Debug\Koperasi.SetoranKolektif.resources
+D:\Tunjung\Koperasi\Koperasi\obj\Debug\Koperasi.SetoranTunai.resources
+D:\Tunjung\Koperasi\Koperasi\obj\Debug\Koperasi.CariNasabah.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\bin\Debug\Koperasi.exe.config
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.exe
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.pdb
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\bin\Debug\Koperasi.exe
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\bin\Debug\Koperasi.pdb
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.csprojResolveAssemblyReference.cache
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.CariNasabah.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.DataNasabah.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.DataPinjaman.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.DataSimpanan.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.EditNasabah.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.Form1.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.Home.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.Login.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.Marketing.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.Penarikan.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.PengajuanPinjaman.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.Profil.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.Properties.Resources.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.SetoranKolektif.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.SetoranSimpanan.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.SetoranTunai.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.SettingKoneksi.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.TambahDataSimpanan.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.TambahNasabah.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.csproj.GenerateResource.Cache
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.AddMarketing.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.AddUser.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.ManageUser.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\bin\Debug\Koperasi.exe.config
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.exe
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.pdb
+F:\BTM\Koperasi 3\Koperasi\Koperasi\bin\Debug\Koperasi.exe
+F:\BTM\Koperasi 3\Koperasi\Koperasi\bin\Debug\Koperasi.pdb
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.csprojResolveAssemblyReference.cache
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.AddMarketing.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.AddUser.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.CariNasabah.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.DataNasabah.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.DataPinjaman.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.DataSimpanan.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.EditNasabah.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.Form1.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.Home.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.Login.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.ManageUser.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.Marketing.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.Penarikan.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.PengajuanPinjaman.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.Profil.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.Properties.Resources.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.SetoranKolektif.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.SetoranSimpanan.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.SetoranTunai.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.SettingKoneksi.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.TambahDataSimpanan.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.TambahNasabah.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.csproj.GenerateResource.Cache
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.CariKolektor.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.ImportNasabah.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.EditMarketing.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.PenarikanSimpanan.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.AkuntingHeader.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.CariSimpanan.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.ManageHeader.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.DeleteHeader.resources
+F:\BTM\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.Akun.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.Agama.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.Akun.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.AkuntingHeader.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.CariAgama.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.CariKolektor.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.CariNasabahSetoran.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.CariPekerjaan.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.CariSimpanan.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.DeleteHeader.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.EditMarketing.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.EditSetoran.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.ImportNasabah.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.ManageHeader.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.Pekerjaan.resources
+D:\Data\New folder\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.PenarikanSimpanan.resources
+D:\Koperasi 3\Koperasi\Koperasi\bin\Debug\Koperasi.exe.config
+D:\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.exe
+D:\Koperasi 3\Koperasi\Koperasi\obj\Debug\Koperasi.pdb

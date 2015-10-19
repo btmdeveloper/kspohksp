@@ -1,0 +1,192 @@
+/*
+SQLyog Ultimate v9.01 
+MySQL - 5.1.29-rc-community : Database - db_kopeasi
+*********************************************************************
+*/
+
+/*!40101 SET NAMES utf8 */;
+
+/*!40101 SET SQL_MODE=''*/;
+
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`db_kopeasi` /*!40100 DEFAULT CHARACTER SET latin1 */;
+
+USE `db_kopeasi`;
+
+/*Table structure for table `nasabah` */
+
+DROP TABLE IF EXISTS `nasabah`;
+
+CREATE TABLE `nasabah` (
+  `no_nasabah` varchar(50) NOT NULL,
+  `tanggal_daftar` datetime DEFAULT NULL,
+  `nama_nasabah` varchar(200) DEFAULT NULL,
+  `jenis_id` varchar(20) DEFAULT NULL,
+  `no_id` varchar(50) DEFAULT NULL,
+  `alamat` varchar(200) DEFAULT NULL,
+  `tempat_lahir` varchar(200) DEFAULT NULL,
+  `tanggal_lahir` date DEFAULT NULL,
+  `jenis_kelamin` varchar(20) DEFAULT NULL,
+  `agama` varchar(50) DEFAULT NULL,
+  `pekerjaan` varchar(100) DEFAULT NULL,
+  `no_telp` varchar(100) DEFAULT NULL,
+  `no_hp` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`no_nasabah`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+/*Data for the table `nasabah` */
+
+/*Table structure for table `pengingat` */
+
+DROP TABLE IF EXISTS `pengingat`;
+
+CREATE TABLE `pengingat` (
+  `id_pengingat` int(11) NOT NULL AUTO_INCREMENT,
+  `judul` varchar(100) DEFAULT NULL,
+  `isi` text,
+  `tanggal` date DEFAULT NULL,
+  `waktu` time DEFAULT NULL,
+  `status_aktif` int(1) DEFAULT NULL,
+  PRIMARY KEY (`id_pengingat`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+/*Data for the table `pengingat` */
+
+/*Table structure for table `pinjaman` */
+
+DROP TABLE IF EXISTS `pinjaman`;
+
+CREATE TABLE `pinjaman` (
+  `id_pinjaman` varchar(50) NOT NULL,
+  `tanggal` datetime DEFAULT NULL,
+  `no_rekening` varchar(50) DEFAULT NULL,
+  `no_nasabah` varchar(50) DEFAULT NULL,
+  `plafon` double DEFAULT NULL,
+  `jangka_waktu` double DEFAULT NULL,
+  `satuan_waktu` varchar(50) DEFAULT NULL,
+  `bunga` double DEFAULT NULL,
+  `jenis_angsuran` int(1) DEFAULT NULL,
+  `jumlah_angsuran` double DEFAULT NULL,
+  `tanggal_pembayaran` date DEFAULT NULL,
+  `kolektor` varchar(10) DEFAULT NULL,
+  `status` int(1) DEFAULT NULL,
+  PRIMARY KEY (`id_pinjaman`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+/*Data for the table `pinjaman` */
+
+/*Table structure for table `pinjaman_angsuran` */
+
+DROP TABLE IF EXISTS `pinjaman_angsuran`;
+
+CREATE TABLE `pinjaman_angsuran` (
+  `id_transaksi` varchar(50) NOT NULL,
+  PRIMARY KEY (`id_transaksi`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+/*Data for the table `pinjaman_angsuran` */
+
+/*Table structure for table `pinjaman_pengajuan` */
+
+DROP TABLE IF EXISTS `pinjaman_pengajuan`;
+
+CREATE TABLE `pinjaman_pengajuan` (
+  `id_pengajuan` varchar(50) NOT NULL,
+  `tanggal_pengajuan` datetime DEFAULT NULL,
+  `no_nasabah` varchar(50) DEFAULT NULL,
+  `plafon` double DEFAULT NULL,
+  `jangka_waktu` double DEFAULT NULL,
+  `satuan_waktu` varchar(50) DEFAULT NULL,
+  `bunga` double DEFAULT NULL,
+  `jenis_angsuran` int(1) DEFAULT NULL,
+  `jumlah_angsuran` double DEFAULT NULL,
+  `tanggal_pembayaran` date DEFAULT NULL,
+  `kolektor` varchar(50) DEFAULT NULL,
+  `status_disetujui` int(1) DEFAULT NULL,
+  PRIMARY KEY (`id_pengajuan`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+/*Data for the table `pinjaman_pengajuan` */
+
+/*Table structure for table `profil` */
+
+DROP TABLE IF EXISTS `profil`;
+
+CREATE TABLE `profil` (
+  `nama_koperasi` varchar(200) DEFAULT NULL,
+  `badan_hukum` varchar(200) DEFAULT NULL,
+  `tgl_pengukuhan_pkp` date DEFAULT NULL,
+  `alamat` varchar(500) DEFAULT NULL,
+  `telp/fax` varchar(200) DEFAULT NULL,
+  `kabupaten` varchar(100) DEFAULT NULL,
+  `provinsi` varchar(100) DEFAULT NULL,
+  `logo` text
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+/*Data for the table `profil` */
+
+/*Table structure for table `simpanan` */
+
+DROP TABLE IF EXISTS `simpanan`;
+
+CREATE TABLE `simpanan` (
+  `id_simpanan` varchar(50) NOT NULL,
+  `tanggal_daftar` datetime DEFAULT NULL,
+  `no_rekening` varchar(50) DEFAULT NULL,
+  `no_nasabah` varchar(50) DEFAULT NULL,
+  `jenis_simpanan` int(1) DEFAULT NULL,
+  `kolektor` varchar(10) DEFAULT NULL,
+  `bunga` double DEFAULT NULL,
+  `saldo` double DEFAULT NULL,
+  `aktif` int(1) DEFAULT NULL,
+  PRIMARY KEY (`id_simpanan`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+/*Data for the table `simpanan` */
+
+/*Table structure for table `simpanan_penarikan` */
+
+DROP TABLE IF EXISTS `simpanan_penarikan`;
+
+CREATE TABLE `simpanan_penarikan` (
+  `id_transaksi` varchar(50) NOT NULL,
+  PRIMARY KEY (`id_transaksi`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+/*Data for the table `simpanan_penarikan` */
+
+/*Table structure for table `simpanan_setoran` */
+
+DROP TABLE IF EXISTS `simpanan_setoran`;
+
+CREATE TABLE `simpanan_setoran` (
+  `id_transaksi` varchar(50) NOT NULL,
+  PRIMARY KEY (`id_transaksi`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+/*Data for the table `simpanan_setoran` */
+
+/*Table structure for table `user` */
+
+DROP TABLE IF EXISTS `user`;
+
+CREATE TABLE `user` (
+  `id_user` int(11) NOT NULL AUTO_INCREMENT,
+  `nama` varchar(200) DEFAULT NULL,
+  `username` varchar(100) DEFAULT NULL,
+  `userpassword` varchar(100) DEFAULT NULL,
+  `role` varchar(100) DEFAULT NULL,
+  `jabatan` varchar(100) DEFAULT NULL,
+  `last_login` datetime DEFAULT NULL,
+  PRIMARY KEY (`id_user`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+/*Data for the table `user` */
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
