@@ -1,6 +1,6 @@
 /*
 SQLyog Ultimate v9.01 
-MySQL - 5.1.29-rc-community : Database - db_koperasi
+MySQL - 5.1.30-community : Database - db_koperasi
 *********************************************************************
 */
 
@@ -306,16 +306,20 @@ insert  into `simpanan`(`id_simpanan`,`tanggal_daftar`,`id_nasabah`,`jenis_simpa
 DROP TABLE IF EXISTS `simpanan_bunga`;
 
 CREATE TABLE `simpanan_bunga` (
-  `id_transaksi` varchar(50) NOT NULL,
-  `tanggal` datetime DEFAULT NULL,
-  `id_simpanan` varchar(50) DEFAULT NULL,
-  `minimal` double DEFAULT NULL,
-  `maksimal` double DEFAULT NULL,
-  `bunga` double DEFAULT NULL,
-  PRIMARY KEY (`id_transaksi`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `id_bunga` varchar(100) DEFAULT NULL,
+  `tgl_bunga` datetime DEFAULT NULL,
+  `id_nasabah` varchar(100) DEFAULT NULL,
+  `id_simpanan` varchar(100) DEFAULT NULL,
+  `persen_bunga` double DEFAULT NULL,
+  `saldo_awal` double DEFAULT NULL,
+  `jumlah_bunga` double DEFAULT NULL,
+  `saldo_akhir` double DEFAULT NULL,
+  `id_pegawai` varchar(100) DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 /*Data for the table `simpanan_bunga` */
+
+insert  into `simpanan_bunga`(`id_bunga`,`tgl_bunga`,`id_nasabah`,`id_simpanan`,`persen_bunga`,`saldo_awal`,`jumlah_bunga`,`saldo_akhir`,`id_pegawai`) values ('1','2015-10-20 09:56:58','1510000001','SA-1510000002',1,720000,7200,727200,NULL),('2','2015-10-20 09:57:08','1510000002','SA-1510000001',2,1240000,24800,1264800,NULL),('1','2015-10-20 09:59:10','1510000001','SA-1510000002',1.5,727200,10908,738108,NULL);
 
 /*Table structure for table `simpanan_jenis` */
 

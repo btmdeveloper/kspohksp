@@ -66,50 +66,31 @@
             this.bukuBesarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rugiLabaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.neracaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.settingAkunToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripLaporan = new System.Windows.Forms.ToolStripSplitButton();
-            this.nasabahToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.laporanDaftarNasabahToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.simpananToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.laporanSimpananAnggotaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mutasiSimpananBulananToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mutasiSimpananHarianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.rekapitulasiSimpananToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.rekapitulasiBungaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.laporanTransaksiSetoranToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.laporanTransaksiTerikanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pinjamanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.laporanDaftarPinjamanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.kartuPinjamanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.laporanAngsuranPinjamanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.laporanPinjamanJatuhTempoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.laporanPinjamanLunaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.laporanBungaPinjamanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.laporanPengajuanPinjamanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.akuntingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bukuBesarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.bukuKasHarianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.jurnalUmumToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.neracaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.bulananToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.harianToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.laporanRugiLabaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.simpananAnggotaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.pinjamanAnggotaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.invoiceAngsuranToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pembayaranAngsuranToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.rekapLaporanTahunanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripMaster = new System.Windows.Forms.ToolStripSplitButton();
             this.dataPegawaiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataAnggotaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSetting = new System.Windows.Forms.ToolStripSplitButton();
+            this.marketingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.manajemenUserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.profilToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.kodeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.backupToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.restoreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.agamaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pekerjaanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.dataKolektorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bungaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -278,7 +259,8 @@
             this.toolStripSimpanan.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.simpananAnggotaToolStripMenuItem,
             this.setoranAnggotaToolStripMenuItem,
-            this.tarikanAnggotaToolStripMenuItem});
+            this.tarikanAnggotaToolStripMenuItem,
+            this.bungaToolStripMenuItem});
             this.toolStripSimpanan.Image = global::Koperasi.Properties.Resources.safe_icon;
             this.toolStripSimpanan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.toolStripSimpanan.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -403,8 +385,7 @@
             this.jurnalUmumToolStripMenuItem,
             this.bukuBesarToolStripMenuItem,
             this.rugiLabaToolStripMenuItem,
-            this.neracaToolStripMenuItem,
-            this.settingAkunToolStripMenuItem});
+            this.neracaToolStripMenuItem});
             this.toolStripAkunting.Image = global::Koperasi.Properties.Resources.cash_register_icon;
             this.toolStripAkunting.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.toolStripAkunting.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -441,12 +422,6 @@
             this.neracaToolStripMenuItem.Text = "Neraca";
             this.neracaToolStripMenuItem.Click += new System.EventHandler(this.neracaToolStripMenuItem_Click);
             // 
-            // settingAkunToolStripMenuItem
-            // 
-            this.settingAkunToolStripMenuItem.Name = "settingAkunToolStripMenuItem";
-            this.settingAkunToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
-            this.settingAkunToolStripMenuItem.Text = "Setting Akun";
-            // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
@@ -455,10 +430,11 @@
             // toolStripLaporan
             // 
             this.toolStripLaporan.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.nasabahToolStripMenuItem,
-            this.simpananToolStripMenuItem,
-            this.pinjamanToolStripMenuItem,
-            this.akuntingToolStripMenuItem});
+            this.simpananAnggotaToolStripMenuItem1,
+            this.pinjamanAnggotaToolStripMenuItem1,
+            this.invoiceAngsuranToolStripMenuItem,
+            this.pembayaranAngsuranToolStripMenuItem1,
+            this.rekapLaporanTahunanToolStripMenuItem});
             this.toolStripLaporan.Image = global::Koperasi.Properties.Resources.Presentation_icon;
             this.toolStripLaporan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.toolStripLaporan.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -466,188 +442,35 @@
             this.toolStripLaporan.Size = new System.Drawing.Size(116, 29);
             this.toolStripLaporan.Text = "Laporan";
             // 
-            // nasabahToolStripMenuItem
+            // simpananAnggotaToolStripMenuItem1
             // 
-            this.nasabahToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.laporanDaftarNasabahToolStripMenuItem});
-            this.nasabahToolStripMenuItem.Name = "nasabahToolStripMenuItem";
-            this.nasabahToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
-            this.nasabahToolStripMenuItem.Text = "Nasabah";
+            this.simpananAnggotaToolStripMenuItem1.Name = "simpananAnggotaToolStripMenuItem1";
+            this.simpananAnggotaToolStripMenuItem1.Size = new System.Drawing.Size(202, 22);
+            this.simpananAnggotaToolStripMenuItem1.Text = "Simpanan Anggota";
             // 
-            // laporanDaftarNasabahToolStripMenuItem
+            // pinjamanAnggotaToolStripMenuItem1
             // 
-            this.laporanDaftarNasabahToolStripMenuItem.Name = "laporanDaftarNasabahToolStripMenuItem";
-            this.laporanDaftarNasabahToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
-            this.laporanDaftarNasabahToolStripMenuItem.Text = "Laporan Daftar Nasabah";
+            this.pinjamanAnggotaToolStripMenuItem1.Name = "pinjamanAnggotaToolStripMenuItem1";
+            this.pinjamanAnggotaToolStripMenuItem1.Size = new System.Drawing.Size(202, 22);
+            this.pinjamanAnggotaToolStripMenuItem1.Text = "Pinjaman Anggota";
             // 
-            // simpananToolStripMenuItem
+            // invoiceAngsuranToolStripMenuItem
             // 
-            this.simpananToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.laporanSimpananAnggotaToolStripMenuItem,
-            this.mutasiSimpananBulananToolStripMenuItem,
-            this.mutasiSimpananHarianToolStripMenuItem,
-            this.rekapitulasiSimpananToolStripMenuItem,
-            this.rekapitulasiBungaToolStripMenuItem,
-            this.laporanTransaksiSetoranToolStripMenuItem,
-            this.laporanTransaksiTerikanToolStripMenuItem});
-            this.simpananToolStripMenuItem.Name = "simpananToolStripMenuItem";
-            this.simpananToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
-            this.simpananToolStripMenuItem.Text = "Simpanan";
+            this.invoiceAngsuranToolStripMenuItem.Name = "invoiceAngsuranToolStripMenuItem";
+            this.invoiceAngsuranToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.invoiceAngsuranToolStripMenuItem.Text = "Invoice Angsuran";
             // 
-            // laporanSimpananAnggotaToolStripMenuItem
+            // pembayaranAngsuranToolStripMenuItem1
             // 
-            this.laporanSimpananAnggotaToolStripMenuItem.Name = "laporanSimpananAnggotaToolStripMenuItem";
-            this.laporanSimpananAnggotaToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
-            this.laporanSimpananAnggotaToolStripMenuItem.Text = "Laporan Simpanan Anggota";
+            this.pembayaranAngsuranToolStripMenuItem1.Name = "pembayaranAngsuranToolStripMenuItem1";
+            this.pembayaranAngsuranToolStripMenuItem1.Size = new System.Drawing.Size(202, 22);
+            this.pembayaranAngsuranToolStripMenuItem1.Text = "Pembayaran Angsuran";
             // 
-            // mutasiSimpananBulananToolStripMenuItem
+            // rekapLaporanTahunanToolStripMenuItem
             // 
-            this.mutasiSimpananBulananToolStripMenuItem.Name = "mutasiSimpananBulananToolStripMenuItem";
-            this.mutasiSimpananBulananToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
-            this.mutasiSimpananBulananToolStripMenuItem.Text = "Mutasi Simpanan Bulanan";
-            // 
-            // mutasiSimpananHarianToolStripMenuItem
-            // 
-            this.mutasiSimpananHarianToolStripMenuItem.Name = "mutasiSimpananHarianToolStripMenuItem";
-            this.mutasiSimpananHarianToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
-            this.mutasiSimpananHarianToolStripMenuItem.Text = "Mutasi Simpanan Harian";
-            // 
-            // rekapitulasiSimpananToolStripMenuItem
-            // 
-            this.rekapitulasiSimpananToolStripMenuItem.Name = "rekapitulasiSimpananToolStripMenuItem";
-            this.rekapitulasiSimpananToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
-            this.rekapitulasiSimpananToolStripMenuItem.Text = "Rekapitulasi Simpanan";
-            // 
-            // rekapitulasiBungaToolStripMenuItem
-            // 
-            this.rekapitulasiBungaToolStripMenuItem.Name = "rekapitulasiBungaToolStripMenuItem";
-            this.rekapitulasiBungaToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
-            this.rekapitulasiBungaToolStripMenuItem.Text = "Rekapitulasi Bunga";
-            // 
-            // laporanTransaksiSetoranToolStripMenuItem
-            // 
-            this.laporanTransaksiSetoranToolStripMenuItem.Name = "laporanTransaksiSetoranToolStripMenuItem";
-            this.laporanTransaksiSetoranToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
-            this.laporanTransaksiSetoranToolStripMenuItem.Text = "Laporan Transaksi Setoran";
-            // 
-            // laporanTransaksiTerikanToolStripMenuItem
-            // 
-            this.laporanTransaksiTerikanToolStripMenuItem.Name = "laporanTransaksiTerikanToolStripMenuItem";
-            this.laporanTransaksiTerikanToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
-            this.laporanTransaksiTerikanToolStripMenuItem.Text = "Laporan Transaksi Terikan";
-            // 
-            // pinjamanToolStripMenuItem
-            // 
-            this.pinjamanToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.laporanDaftarPinjamanToolStripMenuItem,
-            this.kartuPinjamanToolStripMenuItem,
-            this.laporanAngsuranPinjamanToolStripMenuItem,
-            this.laporanPinjamanJatuhTempoToolStripMenuItem,
-            this.laporanPinjamanLunaToolStripMenuItem,
-            this.laporanBungaPinjamanToolStripMenuItem,
-            this.laporanPengajuanPinjamanToolStripMenuItem});
-            this.pinjamanToolStripMenuItem.Name = "pinjamanToolStripMenuItem";
-            this.pinjamanToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
-            this.pinjamanToolStripMenuItem.Text = "Pinjaman";
-            // 
-            // laporanDaftarPinjamanToolStripMenuItem
-            // 
-            this.laporanDaftarPinjamanToolStripMenuItem.Name = "laporanDaftarPinjamanToolStripMenuItem";
-            this.laporanDaftarPinjamanToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
-            this.laporanDaftarPinjamanToolStripMenuItem.Text = "Laporan Daftar Pinjaman";
-            // 
-            // kartuPinjamanToolStripMenuItem
-            // 
-            this.kartuPinjamanToolStripMenuItem.Name = "kartuPinjamanToolStripMenuItem";
-            this.kartuPinjamanToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
-            this.kartuPinjamanToolStripMenuItem.Text = "Kartu Pinjaman";
-            // 
-            // laporanAngsuranPinjamanToolStripMenuItem
-            // 
-            this.laporanAngsuranPinjamanToolStripMenuItem.Name = "laporanAngsuranPinjamanToolStripMenuItem";
-            this.laporanAngsuranPinjamanToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
-            this.laporanAngsuranPinjamanToolStripMenuItem.Text = "Laporan Angsuran Pinjaman";
-            // 
-            // laporanPinjamanJatuhTempoToolStripMenuItem
-            // 
-            this.laporanPinjamanJatuhTempoToolStripMenuItem.Name = "laporanPinjamanJatuhTempoToolStripMenuItem";
-            this.laporanPinjamanJatuhTempoToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
-            this.laporanPinjamanJatuhTempoToolStripMenuItem.Text = "Laporan Pinjaman Jatuh Tempo";
-            // 
-            // laporanPinjamanLunaToolStripMenuItem
-            // 
-            this.laporanPinjamanLunaToolStripMenuItem.Name = "laporanPinjamanLunaToolStripMenuItem";
-            this.laporanPinjamanLunaToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
-            this.laporanPinjamanLunaToolStripMenuItem.Text = "Laporan Pinjaman Lunas";
-            // 
-            // laporanBungaPinjamanToolStripMenuItem
-            // 
-            this.laporanBungaPinjamanToolStripMenuItem.Name = "laporanBungaPinjamanToolStripMenuItem";
-            this.laporanBungaPinjamanToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
-            this.laporanBungaPinjamanToolStripMenuItem.Text = "Laporan Bunga Pinjaman";
-            // 
-            // laporanPengajuanPinjamanToolStripMenuItem
-            // 
-            this.laporanPengajuanPinjamanToolStripMenuItem.Name = "laporanPengajuanPinjamanToolStripMenuItem";
-            this.laporanPengajuanPinjamanToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
-            this.laporanPengajuanPinjamanToolStripMenuItem.Text = "Laporan Pengajuan Pinjaman";
-            // 
-            // akuntingToolStripMenuItem
-            // 
-            this.akuntingToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.bukuBesarToolStripMenuItem1,
-            this.bukuKasHarianToolStripMenuItem,
-            this.jurnalUmumToolStripMenuItem1,
-            this.neracaToolStripMenuItem1,
-            this.laporanRugiLabaToolStripMenuItem});
-            this.akuntingToolStripMenuItem.Name = "akuntingToolStripMenuItem";
-            this.akuntingToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
-            this.akuntingToolStripMenuItem.Text = "Akunting";
-            // 
-            // bukuBesarToolStripMenuItem1
-            // 
-            this.bukuBesarToolStripMenuItem1.Name = "bukuBesarToolStripMenuItem1";
-            this.bukuBesarToolStripMenuItem1.Size = new System.Drawing.Size(172, 22);
-            this.bukuBesarToolStripMenuItem1.Text = "Buku Besar";
-            // 
-            // bukuKasHarianToolStripMenuItem
-            // 
-            this.bukuKasHarianToolStripMenuItem.Name = "bukuKasHarianToolStripMenuItem";
-            this.bukuKasHarianToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
-            this.bukuKasHarianToolStripMenuItem.Text = "Buku Kas Harian";
-            // 
-            // jurnalUmumToolStripMenuItem1
-            // 
-            this.jurnalUmumToolStripMenuItem1.Name = "jurnalUmumToolStripMenuItem1";
-            this.jurnalUmumToolStripMenuItem1.Size = new System.Drawing.Size(172, 22);
-            this.jurnalUmumToolStripMenuItem1.Text = "Jurnal Umum";
-            // 
-            // neracaToolStripMenuItem1
-            // 
-            this.neracaToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.bulananToolStripMenuItem,
-            this.harianToolStripMenuItem});
-            this.neracaToolStripMenuItem1.Name = "neracaToolStripMenuItem1";
-            this.neracaToolStripMenuItem1.Size = new System.Drawing.Size(172, 22);
-            this.neracaToolStripMenuItem1.Text = "Neraca";
-            // 
-            // bulananToolStripMenuItem
-            // 
-            this.bulananToolStripMenuItem.Name = "bulananToolStripMenuItem";
-            this.bulananToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
-            this.bulananToolStripMenuItem.Text = "Bulanan";
-            // 
-            // harianToolStripMenuItem
-            // 
-            this.harianToolStripMenuItem.Name = "harianToolStripMenuItem";
-            this.harianToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
-            this.harianToolStripMenuItem.Text = "Harian";
-            // 
-            // laporanRugiLabaToolStripMenuItem
-            // 
-            this.laporanRugiLabaToolStripMenuItem.Name = "laporanRugiLabaToolStripMenuItem";
-            this.laporanRugiLabaToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
-            this.laporanRugiLabaToolStripMenuItem.Text = "Laporan Rugi Laba";
+            this.rekapLaporanTahunanToolStripMenuItem.Name = "rekapLaporanTahunanToolStripMenuItem";
+            this.rekapLaporanTahunanToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.rekapLaporanTahunanToolStripMenuItem.Text = "Rekap Laporan Tahunan";
             // 
             // toolStripSeparator6
             // 
@@ -686,10 +509,12 @@
             // toolStripSetting
             // 
             this.toolStripSetting.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.dataKolektorToolStripMenuItem,
+            this.marketingToolStripMenuItem,
             this.manajemenUserToolStripMenuItem,
             this.profilToolStripMenuItem,
             this.kodeToolStripMenuItem,
+            this.backupToolStripMenuItem,
+            this.restoreToolStripMenuItem,
             this.agamaToolStripMenuItem,
             this.pekerjaanToolStripMenuItem});
             this.toolStripSetting.Image = global::Koperasi.Properties.Resources.settings_icon;
@@ -699,37 +524,58 @@
             this.toolStripSetting.Size = new System.Drawing.Size(116, 29);
             this.toolStripSetting.Text = "Pengaturan";
             // 
+            // marketingToolStripMenuItem
+            // 
+            this.marketingToolStripMenuItem.Name = "marketingToolStripMenuItem";
+            this.marketingToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.marketingToolStripMenuItem.Text = "Marketing/Kolektor";
+            this.marketingToolStripMenuItem.Click += new System.EventHandler(this.marketingToolStripMenuItem_Click);
+            // 
             // manajemenUserToolStripMenuItem
             // 
             this.manajemenUserToolStripMenuItem.Name = "manajemenUserToolStripMenuItem";
-            this.manajemenUserToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.manajemenUserToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
             this.manajemenUserToolStripMenuItem.Text = "Manajemen User";
             this.manajemenUserToolStripMenuItem.Click += new System.EventHandler(this.manajemenUserToolStripMenuItem_Click);
             // 
             // profilToolStripMenuItem
             // 
             this.profilToolStripMenuItem.Name = "profilToolStripMenuItem";
-            this.profilToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.profilToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
             this.profilToolStripMenuItem.Text = "Profil Koperasi";
             this.profilToolStripMenuItem.Click += new System.EventHandler(this.profilToolStripMenuItem_Click);
             // 
             // kodeToolStripMenuItem
             // 
             this.kodeToolStripMenuItem.Name = "kodeToolStripMenuItem";
-            this.kodeToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.kodeToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
             this.kodeToolStripMenuItem.Text = "Setting Kode";
+            // 
+            // backupToolStripMenuItem
+            // 
+            this.backupToolStripMenuItem.Name = "backupToolStripMenuItem";
+            this.backupToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.backupToolStripMenuItem.Text = "Backup Database";
+            // 
+            // restoreToolStripMenuItem
+            // 
+            this.restoreToolStripMenuItem.Name = "restoreToolStripMenuItem";
+            this.restoreToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.restoreToolStripMenuItem.Text = "Restore Database";
             // 
             // agamaToolStripMenuItem
             // 
             this.agamaToolStripMenuItem.Name = "agamaToolStripMenuItem";
-            this.agamaToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.agamaToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
             this.agamaToolStripMenuItem.Text = "Agama";
+            this.agamaToolStripMenuItem.Click += new System.EventHandler(this.agamaToolStripMenuItem_Click);
             // 
             // pekerjaanToolStripMenuItem
             // 
             this.pekerjaanToolStripMenuItem.Name = "pekerjaanToolStripMenuItem";
-            this.pekerjaanToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
+            this.pekerjaanToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
             this.pekerjaanToolStripMenuItem.Text = "Pekerjaan";
+            this.pekerjaanToolStripMenuItem.Click += new System.EventHandler(this.pekerjaanToolStripMenuItem_Click);
             // 
             // toolStripSeparator8
             // 
@@ -762,12 +608,12 @@
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // dataKolektorToolStripMenuItem
+            // bungaToolStripMenuItem
             // 
-            this.dataKolektorToolStripMenuItem.Name = "dataKolektorToolStripMenuItem";
-            this.dataKolektorToolStripMenuItem.Size = new System.Drawing.Size(163, 22);
-            this.dataKolektorToolStripMenuItem.Text = "Data Kolektor";
-            this.dataKolektorToolStripMenuItem.Click += new System.EventHandler(this.dataKolektorToolStripMenuItem_Click);
+            this.bungaToolStripMenuItem.Name = "bungaToolStripMenuItem";
+            this.bungaToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
+            this.bungaToolStripMenuItem.Text = "Bunga";
+            this.bungaToolStripMenuItem.Click += new System.EventHandler(this.bungaToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -825,10 +671,18 @@
         private System.Windows.Forms.ToolStripMenuItem neracaToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripSplitButton toolStripLaporan;
+        private System.Windows.Forms.ToolStripMenuItem simpananAnggotaToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem pinjamanAnggotaToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem invoiceAngsuranToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pembayaranAngsuranToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem rekapLaporanTahunanToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
         private System.Windows.Forms.ToolStripSplitButton toolStripSetting;
+        private System.Windows.Forms.ToolStripMenuItem marketingToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem profilToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem kodeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem backupToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem restoreToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
         private System.Windows.Forms.ToolStripSplitButton toolStripMaster;
         private System.Windows.Forms.ToolStripMenuItem dataPegawaiToolStripMenuItem;
@@ -849,36 +703,9 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator9;
         private System.Windows.Forms.ToolStripMenuItem dataNasabahToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem manajemenUserToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem nasabahToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem laporanDaftarNasabahToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem simpananToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem laporanSimpananAnggotaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mutasiSimpananBulananToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mutasiSimpananHarianToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem rekapitulasiSimpananToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem rekapitulasiBungaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem laporanTransaksiSetoranToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem laporanTransaksiTerikanToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pinjamanToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem laporanDaftarPinjamanToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem kartuPinjamanToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem laporanAngsuranPinjamanToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem laporanPinjamanJatuhTempoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem laporanPinjamanLunaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem akuntingToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem laporanBungaPinjamanToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem laporanPengajuanPinjamanToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem bukuBesarToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem bukuKasHarianToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem jurnalUmumToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem neracaToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem bulananToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem harianToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem laporanRugiLabaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem agamaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pekerjaanToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem settingAkunToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem dataKolektorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bungaToolStripMenuItem;
     }
 }
 

@@ -136,6 +136,17 @@ namespace Koperasi
 
         }
 
+        private void marketingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (ActiveMdiChild != null)
+                ActiveMdiChild.Close();
+            Marketing formMarketing = new Marketing();
+            formMarketing.MdiParent = this;
+            formMarketing.StartPosition = FormStartPosition.CenterScreen;
+            formMarketing.Show();
+            
+        }
+
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
@@ -171,14 +182,27 @@ namespace Koperasi
             formUser.Show();
         }
 
-        private void dataKolektorToolStripMenuItem_Click(object sender, EventArgs e)
+        private void agamaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Agama agama = new Agama();
+            agama.ShowDialog();
+        }
+
+        private void pekerjaanToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Pekerjaan kerja = new Pekerjaan();
+            kerja.ShowDialog();
+        }
+
+        private void bungaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (ActiveMdiChild != null)
                 ActiveMdiChild.Close();
-            Marketing formMarketing = new Marketing();
-            formMarketing.MdiParent = this;
-            formMarketing.StartPosition = FormStartPosition.CenterScreen;
-            formMarketing.Show();
+            DataBunga formBunga = new DataBunga();
+            formBunga.MdiParent = this;
+            formBunga.StartPosition = FormStartPosition.CenterScreen;
+            formBunga.Show();
+
         }
 
     }

@@ -11,7 +11,7 @@ namespace Koperasi
         public static String server = "localhost";
         public static String port = "3306";
         public static String username = "root";
-        public static String password = "root";
+        public static String password = "jikacintadia";
         public static String database = "db_koperasi";
         public static String uname = "";
         public static String nama = "";

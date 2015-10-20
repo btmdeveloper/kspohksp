@@ -75,6 +75,12 @@
     <Compile Include="AkuntingHeader.Designer.cs">
       <DependentUpon>AkuntingHeader.cs</DependentUpon>
     </Compile>
+    <Compile Include="BungaSimpanan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BungaSimpanan.designer.cs">
+      <DependentUpon>BungaSimpanan.cs</DependentUpon>
+    </Compile>
     <Compile Include="CariAgama.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,12 @@
     </Compile>
     <Compile Include="CariSimpanan.Designer.cs">
       <DependentUpon>CariSimpanan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataBunga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataBunga.designer.cs">
+      <DependentUpon>DataBunga.cs</DependentUpon>
     </Compile>
     <Compile Include="DataNasabah.cs">
       <SubType>Form</SubType>
@@ -296,6 +308,9 @@
     <EmbeddedResource Include="AkuntingHeader.resx">
       <DependentUpon>AkuntingHeader.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="BungaSimpanan.resx">
+      <DependentUpon>BungaSimpanan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CariAgama.resx">
       <DependentUpon>CariAgama.cs</DependentUpon>
     </EmbeddedResource>
@@ -313,6 +328,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CariSimpanan.resx">
       <DependentUpon>CariSimpanan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataBunga.resx">
+      <DependentUpon>DataBunga.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DataNasabah.resx">
       <DependentUpon>DataNasabah.cs</DependentUpon>
